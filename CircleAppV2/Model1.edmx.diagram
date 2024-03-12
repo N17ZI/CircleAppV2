@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6877392619b6465a83dd337260f441a2" Name="Diagram1">
+        <EntityTypeShape EntityType="CircModel.Animal" Width="1.5" PointX="11" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.AnimalType" Width="1.5" PointX="8.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Applicationn" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Cabinet" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Cage" Width="1.5" PointX="13.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.CostumeDept" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.DressingRoom" Width="1.5" PointX="10.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Gender" Width="1.5" PointX="8.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Perfomance" Width="1.5" PointX="6" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Perfomance_Report1" Width="1.5" PointX="8.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Perfomance_Report2" Width="1.5" PointX="11.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.PerfomanceType" Width="1.5" PointX="3.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Position" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Report1" Width="1.5" PointX="6" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Report2" Width="1.5" PointX="9" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Taskk" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Timetable" Width="1.5" PointX="8.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.TypeOfArtist" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CircModel.Worker" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="CircModel.FK_Animal_AnimalType" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Animal_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Cage_Animal" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Application_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Cabinet_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Perfomance_PerfomanceType" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Perfomance_Report1_Perfomance" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Perfomance_Report2_Perfomance" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Timetable_Perfomance" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Perfomance_Report1_Report11" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Perfomance_Report2_Report21" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Worker_To_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Task_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Timetable_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="CircModel.FK_Worker_TypeOfArtist" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="CircleAppV2.NewTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CircleAppV2"
+        mc:Ignorable="d"
+        Title="NewTaskWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" Margin="5">ID servicestaff:</Label>
+        <TextBox x:Name="ID_ser" Grid.Column="1" Grid.Row="0" Margin="5"/>
+        <Label Grid.Column="0" Grid.Row="1" Margin="5">Description:</Label>
+        <TextBox x:Name="Desc" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <Label Grid.Column="0" Grid.Row="2" Margin="5">DoneOrNo:</Label>
+        <TextBox x:Name="DoneOrNo" Grid.Column="1" Grid.Row="2" Margin="5"/>
+        <Label Grid.Column="0" Grid.Row="3" Margin="5" IsEnabled="False">Time:</Label>
+        <TextBox x:Name="timeTextBox" Grid.Column="1" Grid.Row="3" Margin="5"/>
+        <Button x:Name="sendButton" Content="Отправить" Grid.Column="1" Grid.Row="4" Margin="5" Click="SendButton_Click"/>
+    </Grid>
+</Window>
